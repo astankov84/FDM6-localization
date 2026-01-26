@@ -243,7 +243,7 @@ msgstr "덮어쓰기"
 
 msgctxt "AdvancedSettings|"
 msgid "Use sounds"
-msgstr "소리 사용"
+msgstr "사운드 사용"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
@@ -496,7 +496,7 @@ msgstr "취소"
 
 msgctxt "AppQuitConfirmationUiManager|"
 msgid "There are operations with no resume capability in progress"
-msgstr "진행 중인 재개 기능이 없는 작업이 있습니다"
+msgstr "진행 중인 작업 중에는 재개가 불가능한 작업이 있습니다"
 
 #, qt-format
 msgctxt "AppRcClientLoadManager|"
@@ -815,7 +815,7 @@ msgid ""
 "buttons below"
 msgstr ""
 "%1 확장이 설치되어 있는지 확인하세요. 그렇지 않으면 아래 버튼 중 하나를 클릭"
-"합니다"
+"하세요"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
@@ -986,7 +986,7 @@ msgstr ""
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
-msgstr "업로드됨"
+msgstr "업로드"
 
 msgctxt "BtStrings|"
 msgid "Ratio"
@@ -1326,7 +1326,7 @@ msgstr "취소"
 
 msgctxt "CreatePortableDialog|"
 msgid "Create portable version"
-msgstr "휴대용 버전 만들기"
+msgstr "포터블 버전 만들기"
 
 #, qt-format
 msgctxt "CreatePortableDialog|"
@@ -1334,7 +1334,7 @@ msgid ""
 "Portable version of %1 can be used on different computers without the need "
 "to install and configure it on each of them."
 msgstr ""
-"%1의 휴대용 버전은 각각의 컴퓨터에 설치 및 구성할 필요없이 다른 컴퓨터에서 사"
+"%1의 포터블 버전은 각각의 컴퓨터에 설치 및 구성할 필요없이 다른 컴퓨터에서 사"
 "용할 수 있습니다."
 
 msgctxt "CreatePortableDialog|"
@@ -1384,7 +1384,7 @@ msgstr "닫기"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Customize sounds"
-msgstr "사용자 정의 소리"
+msgstr "사운드 사용자 지정"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Event"
@@ -1392,11 +1392,11 @@ msgstr "이벤트"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Sound file"
-msgstr "소리 파일"
+msgstr "사운드 파일"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No sound"
-msgstr "소리 없음"
+msgstr "사운드 없음"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads added"
@@ -1416,7 +1416,7 @@ msgstr "활성 다운로드 없음"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Set sound"
-msgstr "소리 설정"
+msgstr "사운드 설정"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Remove"
@@ -2729,7 +2729,7 @@ msgstr "다운로드한 파일 표시"
 
 msgctxt "GeneralSettings|"
 msgid "New"
-msgstr "신규"
+msgstr "모던"
 
 msgctxt "GeneralSettings2|"
 msgid "Check for updates automatically"
@@ -2773,7 +2773,7 @@ msgstr "다운로드:"
 
 msgctxt "GeneralTab|"
 msgid "Uploaded"
-msgstr "업로드됨"
+msgstr "업로드"
 
 msgctxt "GeneralTab|"
 msgid "ratio"
@@ -2826,7 +2826,7 @@ msgstr "다운로드:"
 
 msgctxt "GeneralTab_V2|"
 msgid "Uploaded"
-msgstr "업로드됨"
+msgstr "업로드"
 
 msgctxt "GeneralTab_V2|"
 msgid "ratio"
@@ -3860,6 +3860,22 @@ msgid "Updating installed add-ons..."
 msgstr "설치된 추가 기능을 업데이트하는 중..."
 
 msgctxt "PluginsPage|"
+msgid "Developer options"
+msgstr "개발자 옵션"
+
+msgctxt "PluginsPage|"
+msgid "Allow unsigned add-ons to access external directories"
+msgstr "서명되지 않은 추가 기능이 외부 디렉터리에 액세스하도록 허용"
+
+msgctxt "PluginsPage|"
+msgid "Restart is required"
+msgstr "다시 시작 필요"
+
+msgctxt "PluginsPage|"
+msgid "Hide developer options"
+msgstr "개발자 옵션 숨기기"
+
+msgctxt "PluginsPage|"
 msgid "There are no installed add-ons."
 msgstr "설치된 추가 기능이 없습니다."
 
@@ -4785,6 +4801,10 @@ msgid "Allows to execute arbitrary code."
 msgstr "임의 코드를 실행할 수 있습니다."
 
 msgctxt "QObject|"
+msgid "Launch Deno (JavaScript runtime)"
+msgstr "Deno 실행 (JavaScript 런타임)"
+
+msgctxt "QObject|"
 msgid "Installing..."
 msgstr "설치 중..."
 
@@ -4845,7 +4865,7 @@ msgstr "읽기 또는 쓰기를 위해 gzip을 열 수 있습니다. 무엇입�
 
 msgctxt "QuaGzipFile|"
 msgid "Could not gzopen() file"
-msgstr "gzopen() 파일 불가능"
+msgstr "파일을 gzopen() 할 수 없음"
 
 msgctxt "QuaZIODevice|"
 msgid "QIODevice::Append is not supported for QuaZIODevice"
@@ -5262,11 +5282,11 @@ msgstr "확인 (%1)"
 
 msgctxt "SoundsSettings|"
 msgid "Sounds settings"
-msgstr "소리 설정"
+msgstr "사운드 설정"
 
 msgctxt "SoundsSettings|"
 msgid "Use sounds"
-msgstr "소리 사용"
+msgstr "사운드 사용"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads added"
@@ -5700,7 +5720,7 @@ msgstr "클래식 인터페이스가 켜져 있습니다."
 
 msgctxt "UiUpdatedBanner|"
 msgid "The new interface is turned on."
-msgstr "새 인터페이스가 켜져 있습니다."
+msgstr "모던 인터페이스가 켜져 있습니다."
 
 msgctxt "UiUpdatedBanner|"
 msgid "OK"
@@ -5746,7 +5766,7 @@ msgstr "업데이트"
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid "%1 is up to date"
-msgstr "%1가 최신 버전입니다"
+msgstr "%1은 최신 상태입니다"
 
 msgctxt "UpdateDialog|"
 msgid "OK"

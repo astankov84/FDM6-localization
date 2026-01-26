@@ -3057,7 +3057,7 @@ msgstr "%year% - aktuelles Jahr"
 
 msgctxt "MacrosMenu|"
 msgid "%month% - current month (number from 1 to 12)"
-msgstr "%month% - aktueller Monat (Nummer zwischen 1 und 12)"
+msgstr "%month% - aktueller Monat (Zahl zwischen 1 und 12)"
 
 msgctxt "MacrosMenu|"
 msgid "%day% - current day"
@@ -3896,6 +3896,24 @@ msgstr "Erweiterungen die Verwendung von Webbrowser-Cookies gestatten"
 msgctxt "PluginsPage|"
 msgid "Updating installed add-ons..."
 msgstr "Installierte Erweiterungen aktualisieren…"
+
+msgctxt "PluginsPage|"
+msgid "Developer options"
+msgstr "Entwickleroptionen"
+
+msgctxt "PluginsPage|"
+msgid "Allow unsigned add-ons to access external directories"
+msgstr ""
+"Nicht signierten Add-ons den Zugriff auf externe Verzeichnisse erlauben"
+
+#, fuzzy
+msgctxt "PluginsPage|"
+msgid "Restart is required"
+msgstr "Neustart erforderlich"
+
+msgctxt "PluginsPage|"
+msgid "Hide developer options"
+msgstr "Entwickleroptionen ausblenden"
 
 msgctxt "PluginsPage|"
 msgid "There are no installed add-ons."
@@ -4824,6 +4842,10 @@ msgstr "Python-Code starten"
 msgctxt "QObject|"
 msgid "Allows to execute arbitrary code."
 msgstr "Ermöglicht die Ausführung von beliebigem Code."
+
+msgctxt "QObject|"
+msgid "Launch Deno (JavaScript runtime)"
+msgstr "Deno starten (JavaScript runtime)"
 
 msgctxt "QObject|"
 msgid "Installing..."
